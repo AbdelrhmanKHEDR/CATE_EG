@@ -902,3 +902,151 @@ ul.cont li {
      margin-top: 0;
      color: #007bff; /* Blue only inside the modal */
    }
+
+
+
+   .services .benefits,
+.services .service-details,
+.services .maintenance-plans {
+    margin-bottom: 25px;
+}
+
+.benefit-list, 
+.service-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.benefit-list li, 
+.service-list li {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.benefit-list i.fa-check,
+.service-list i {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    color: #2a9df4;
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.plan-item {
+    background: #f8f9fa;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border-left: 4px solid #2a9df4;
+    font-weight: 500;
+}
+
+.cta-section {
+    margin-top: 30px;
+}
+
+.PMread_more {
+    display: inline-block;
+    background: #2a9df4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.PMread_more:hover {
+    background: #1e7ec8;
+    transform: translateY(-2px);
+}
+
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* For both buttons */
+.PMread_more {
+    padding: 12px 40px !important;
+    text-align: center;
+    min-width: 180px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/* Specific style for buttons with icons */
+.PMread_more i {
+    margin-left: 8px;
+}
+
+
+.about_img {
+    padding-inline-start: 1.5rem; /* Additional padding insurance */
+}
+
+.about_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Product specific styles */
+.products .benefit-list,
+.products .product-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.products .benefit-list li,
+.products .product-list li {
+    margin-bottom: 12px;
+    padding-left: 28px;
+    position: relative;
+}
+
+.products .benefit-list i,
+.products .product-list i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    color: #0066cc;
+    font-size: 18px;
+}
+
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.advantage-item {
+    background: #f8f9fa;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border-left: 4px solid #0066cc;
+}
+
+.contact-items div {
+    margin-bottom: 10px;
+    padding-left: 28px;
+    position: relative;
+}
+
+.contact-items i {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    color: #0066cc;
+}
+
+.lead {
+    font-size: 1.1rem;
+    color: #555;
+}
